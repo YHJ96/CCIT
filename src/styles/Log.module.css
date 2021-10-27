@@ -1,0 +1,6 @@
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    scrollbar-color: transparent transparent; /*just hides the scrollbar for firefox */
+}

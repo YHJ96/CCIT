@@ -1,0 +1,11 @@
+.container {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#scroll::-webkit-scrollbar {
+    display: none;
+}
+#soild {
+    background-color: #2f3237;
+    color: #fdfdfd;
+}

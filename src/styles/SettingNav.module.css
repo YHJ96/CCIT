@@ -1,0 +1,32 @@
+.navcontainer {
+    margin-left: 1%;
+}
+.navitem {
+    background-color: #3f4247;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navtext {
+    color: #bdbdbd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+}
+.navtext:hover {
+    color: #53b9ea;
+}
+.select {
+    color: #53b9ea;
+}
+.soild {
+    width: 1px;
+    height: 70%;
+    background-color: #bdbdbd;
+}
+#navitem1 {
+    border-bottom-left-radius: 10px;
+}
+#navitem2 {
+    border-bottom-right-radius: 10px;
+}

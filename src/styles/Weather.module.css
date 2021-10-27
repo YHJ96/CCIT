@@ -1,0 +1,97 @@
+.container {
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.labelcontainer {
+    align-items: center;
+}
+.label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fdfdfd;
+    margin-left: 1%;
+}
+.icon {
+    color: #fdfdfd;
+    margin-left: 2%;
+}
+.labeltext {
+    color: #fdfdfd;
+    padding: 0;
+    margin: 0;
+    margin-left: 1%;
+}
+.dailycontainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.dailylabel {
+    display: flex;
+    justify-content: center;
+}
+.dailyicon {
+    width: 100px !important;
+    height: 100px !important;
+}
+.dailytext {
+    display: flex;
+    justify-content: center;
+    color: #fdfdfd;
+    margin: 0;
+}
+.dailyvalue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdfd;
+    margin: 0;
+}
+.dailyimg {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 1%;
+}
+.soild {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.soilditem {
+    width: 80%;
+    height: 2px;
+    background: gray;
+    margin-top: 4%;
+}
+.weekcontainer {
+    justify-content: center;
+    margin: 3%;
+}
+.weeklabel {
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.weekitem {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5%;
+}
+.weekimg {
+    width: 50px !important;
+    height: 50px !important;
+}
+.weektext {
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5%;
+}

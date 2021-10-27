@@ -1,0 +1,11 @@
+.form {
+    margin-top: 1%;
+}
+.col {
+    height: 100vh;
+}
+.card {
+    height: 95%;
+    margin-top: 1%;
+    background: #2f3237 !important;
+}

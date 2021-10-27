@@ -1,0 +1,73 @@
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    background-color: #2f3237;
+    height: 95%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: scroll;
+    scrollbar-color: transparent transparent; /*just hides the scrollbar for firefox */
+}
+.label {
+    font-weight: 'bold';
+    color: #fdfdfd;
+    height: 10%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.card {
+    background-color: #2f3237 !important;
+    border-radius: 0% !important;
+}
+.title {
+    font-weight: 600;
+    color: #fdfdfd;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    color: #888888;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.progress {
+    height: 7px;
+}
+#textvalue {
+    color: #fd0000;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card1 {
+    border-right-color: #fdfdfd;
+    border-bottom-color: #fdfdfd;
+}
+#card2 {
+    border-bottom-color: #fdfdfd;
+}
+#card3 {
+    border-right-color: #fdfdfd;
+}
+
+@media (max-width: 770px) {
+#card1{
+    border-bottom-color: #292c30;
+    border-right-color: #292c30;
+}
+#card2{
+    border-bottom-color: #292c30;
+}
+#card3{
+    border-right-color: #292c30;
+}
+}

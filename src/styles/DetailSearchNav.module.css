@@ -1,0 +1,29 @@
+.navcontainer {
+    margin-left: 1%;
+}
+.navbtn {
+    background-color: #3f4247;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.navmenu {
+    background-color: #3f4247 !important;
+}
+.navitem {
+    background-color: #3f4247 !important;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.navtitle {
+    color: #bdbdbd;
+}
+.navtitle:hover {
+    color: #53b9ea;
+}
+.navtext {
+    color: #bdbdbd;
+}
+.navtext:hover {
+    color: #53b9ea;
+}

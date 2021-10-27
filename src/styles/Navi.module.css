@@ -1,0 +1,30 @@
+.navcontainer {
+    padding-left: 10px;
+}
+.navitem {
+    color: #bdbdbd !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    display: flex !important;
+    align-items: center !important;
+}
+.navitem:hover {
+    color: #53b9ea !important;
+}
+.select {
+    color: #53b9ea !important;
+}
+.navtext {
+    color: #c4c4c4 !important;
+    font-family: 'fantasy';
+}
+.dropnav {
+    color: rgb(154,157,160);
+}
+.icon {
+    margin-right: 0.25em;
+}
+
+#tv {
+    cursor: pointer;
+}
